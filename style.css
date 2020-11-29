@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: blue;
-    --of-white:#D1D5DB;
+    --off-white:#D1D5DB;
     --dark-gray: #6B7280;
    
 }
@@ -10,6 +10,7 @@
 body {
     font-family: 'Montserrat',
         sans-serif;
+        margin:0px;
 }
 
 hr {
@@ -22,7 +23,7 @@ hr {
     padding: 0rem 1 rem;
 }
 
-.container-center: {
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -64,6 +65,9 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -96,6 +100,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align:center;
     color: var(--dark-gray);
     padding-top: 1rem;
 }
@@ -114,6 +119,25 @@ hr {
 
 }
 
-ow{
+.ow{
 background-color: var(--off-white);
+}
+/* footers */
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 0rem ;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+    
+}
+.footer ul {
+    padding-inline-start: 0px;
+
 }
